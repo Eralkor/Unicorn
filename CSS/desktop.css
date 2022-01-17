@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+    --black: #181818;
+    --white: #ffffff;
+    --gray: #eeeeee;
+    --gray-light: #fbfbfb;
+    --font-body: 'PT Sans', sans-serif;
+    --font-title: 'Libre Baskerville', serif;
+}
+
+/* Police Ecriture */
+
+header{
+    font-family: 'Libre Baskerville', serif;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: var(--gray-light);
+}
+
+@media (min-width: 1200px){
+    
+    .container{
+        width: 70%;
+    }
+
+
+    .navmobile, .imgmobile{
+        display: none;
+    }
+
+    .button{
+        display: none;
+    }
+
+    .buttondark{
+        display: block;
+    }
+
+    .navpc, .imgpc{
+        display: block;
+    }
+
+    .navpc{
+        display: flex;
+        gap: 30px;
+    }
+
+    .imgpc{
+        width: 80%;
+        margin: auto;
+    }
+
+
+    .logo{
+        width: 50%;
+        height: 60px;
+    }
+
+   header section{
+       padding-top: 100px;
+   }
+}
+    
